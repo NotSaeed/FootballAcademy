@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elite Football Academy</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <style>
+    #map {
+      height: 300px;
+      width: 100%;
+    }
+    .contact-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+    }
+    .contact-info {
+      flex: 1;
+      min-width: 250px;
+    }
+    .contact-info p {
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+    }
+    .contact-info i {
+      margin-right: 10px;
+    }
+    .social-links {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 1rem;
+    }
+    .social-links a {
+      color: white;
+      font-size: 1.5rem;
+      margin-right: 15px;
+      transition: color 0.3s;
+    }
+    .social-links a:hover {
+      color: #007bff;
+    }
+    .programs-illustration .card h3 {
+      transition: all 0.3s ease;
+    }
+    .programs-illustration .card h3:hover {
+      color: #007bff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo-title-wrap">
+        <img src="images/logo.png" alt="Elite Football Academy Logo">
+        <h1>Elite Football Academy</h1>
+      </div>
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#programs" class="nav-link">Programs</a></li>
+          <li><a href="register.html" class="nav-link">Register</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="container text-center">
+      <h2 class="hero-title">Train Like a Pro</h2>
+      <p class="hero-text">Join the best football academy to develop your skills and reach your goals!</p>
+      <a href="register.html" class="btn btn-primary">Join Now</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2 class="about1">About Us</h2>
+      <p>
+        Elite Football Academy is dedicated to helping aspiring footballers achieve their dreams through high-quality training and mentoring programs.
+        Our coaches are experienced, passionate, and ready to support you every step of the way.
+      </p>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section id="programs" class="program-section">
+    <div class="container">
+      <h2 class="program">Our Programs</h2>
+      <div class="programs-illustration">
+        <div class="card">
+          <img src="images/youth.png" alt="Youth Training">
+          <h3>Youth Training</h3>
+          <p>Tailored sessions for children aged 7–14 focusing on fundamentals and team spirit.</p>
+        </div>
+        <div class="card">
+          <img src="images/elite.png" alt="Elite Camp">
+          <h3>Elite Camp</h3>
+          <p>High-intensity sessions designed for advanced players preparing for pro careers.</p>
+        </div>
+        <div class="card">
+          <img src="images/weekend.png" alt="Weekend Clinics">
+          <h3>Weekend Clinics</h3>
+          <p>Fun and skill-focused sessions for all levels every weekend.</p>
+        </div>
+      </div>
+
+      <!-- Program Table -->
+      <table class="program-table">
+        <thead>
+          <tr>
+            <th>Program</th>
+            <th>Age Group</th>
+            <th>Schedule</th>
+            <th>Fee</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Youth Training</td>
+            <td>7–14</td>
+            <td>Mon-Wed-Fri, 5PM</td>
+            <td>$150/month</td>
+          </tr>
+          <tr>
+            <td>Elite Camp</td>
+            <td>15–18</td>
+            <td>Daily, 6PM</td>
+            <td>$300/month</td>
+          </tr>
+          <tr>
+            <td>Weekend Clinics</td>
+            <td>All Ages</td>
+            <td>Sat-Sun, 9AM</td>
+            <td>$80/month</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="contact-container">
+        <div id="map"></div>
+        <div class="contact-info">
+          <p><i class="fas fa-map-marker-alt"></i> Universiti Malaysia Pahang, 26600 Pekan, Pahang</p>
+          <p><i class="fas fa-phone"></i> 014-6616299</p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:cf23006@adab.umpsa.edu.my">cf23006@adab.umpsa.edu.my</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="social-links">
+        <a href="https://github.com/NotSaeed" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/mohammedsaeed1010/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/mk_10ka/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100002809449220" target="_blank"><i class="fab fa-facebook"></i></a>
+      </div>
+      <p class="text-center">&copy; 2025 Elite Football Academy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Initialize the map and set its view to the coordinates and zoom level
+    var map = L.map('map').setView([3.5438852, 103.4210417], 15);
+
+    // Add a tile layer to the map (OpenStreetMap)
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Add a marker to the map
+    var marker = L.marker([3.5438852, 103.4210417]).addTo(map);
+    marker.bindPopup("<b>Fakulti Komputeran (FK), UMPSA Pekan, Pahang</b>").openPopup();
+  </script>
+</body>
+</html>
