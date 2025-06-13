@@ -1,9 +1,4 @@
-
-
-![image](https://github.com/user-attachments/assets/50a95fc4-392a-4637-9395-b86c3e044854)
-![image](https://github.com/user-attachments/assets/5d29bff7-6c0e-4f62-838b-0fe222a7d9a6)
-
-
+# ⚽ FootballAcademy
 
 **Elite Football Academy** – A fully responsive football academy website built using **HTML**, **CSS**, and **JavaScript**.
 
@@ -25,8 +20,9 @@
 
 | Hero Section | Programs Section |
 |--------------|------------------|
-![image](https://github.com/user-attachments/assets/50a95fc4-392a-4637-9395-b86c3e044854)
-![image](https://github.com/user-attachments/assets/5d29bff7-6c0e-4f62-838b-0fe222a7d9a6)
+| ![Hero](https://github.com/user-attachments/assets/50a95fc4-392a-4637-9395-b86c3e044854) | ![Programs](https://github.com/user-attachments/assets/5d29bff7-6cce-4f62-83bb-0fe223a7d9a6) |
+| ![Youth](https://github.com/user-attachments/assets/f3c83d32-d76b-43e0-adb5-6c16e98206e7) | *(More coming soon...)* |
+
 ---
 
 ## 🌍 Technologies Used
