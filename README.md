@@ -18,10 +18,15 @@
 
 ## 📸 Screenshots
 
-| Hero Section | Programs Section |
-|--------------|------------------|
-| ![Hero](https://github.com/user-attachments/assets/50a95fc4-392a-4637-9395-b86c3e044854) | ![Programs](https://github.com/user-attachments/assets/5d29bff7-6cce-4f62-83bb-0fe223a7d9a6) |
-| ![Youth](https://github.com/user-attachments/assets/f3c83d32-d76b-43e0-adb5-6c16e98206e7) | *(More coming soon...)* |
+![image](https://github.com/user-attachments/assets/e14e78e8-f95f-44c7-8576-783f0f784b40)
+![image](https://github.com/user-attachments/assets/53821789-3ffd-44b9-bc81-2ff2086e5377)
+![image](https://github.com/user-attachments/assets/0447be71-5d1a-4f7a-86c1-3ee2aa2346fd)
+![image](https://github.com/user-attachments/assets/e583323c-d517-4042-803e-926f63d26030)
+![image](https://github.com/user-attachments/assets/3f37eb9e-c388-4a13-9421-f06b9f45e2c7)
+![image](https://github.com/user-attachments/assets/0bba4b4d-e104-4482-a6d3-e32efa25b7a7)
+
+
+
 
 ---
 
